@@ -1,0 +1,211 @@
+@font-face{
+  font-family:'futurak';
+   src: url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('truetype'),
+   url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('ttf');
+   font-weight: normal;
+   font-style: normal;
+   font-variant-ligatures: no-common-ligatures;
+ }
+ @font-face {
+  font-family: "aperciu";
+  src: url(asset/fonts/Apercu\ Light.otf);
+ }
+
+.navbar{
+  background-color: #000;
+  margin-top: -17px;
+  padding: 0px;
+}
+.linavimg{
+  padding-left: 250px;
+  margin-bottom: 10px;
+}
+.linavimg1{
+  margin: 12px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+     float: left;
+     list-style: none;
+     color: #fff;
+}
+.linav{
+  margin-left: 672px;
+  margin-top: -86px;
+  
+}
+.linav > li{
+  color: #ffffff;
+  padding: 24px 72px 15px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  
+}
+.linav a{
+  color: #fff;
+}
+
+.linav   a:hover{
+  color: #e61722; 
+  text-decoration: none;
+
+}
+.linav   a:link{
+  text-decoration: none;
+ 
+  
+}
+.linav  a:visited{
+  text-decoration: none;
+  
+
+}
+.linav  a:active{
+  text-decoration: none;
+  
+}
+.btn1{
+  background-color:hsl(0, 0%, 0%);
+  color: #e61722; 
+  border-color: #fff;
+  border-radius: 35px; 
+  display: block;
+  box-sizing: border-box;
+  padding: 17px;
+  margin-top: -25px;
+  width: 159px;   
+}
+.btn1 > a {
+ color: #e61722;
+}
+.btn2{
+  background-color:#e61722;
+  color: rgb(255, 255, 255); 
+  border-radius: 35px;
+  border-color:#fff;
+  display: block;
+  box-sizing: border-box;
+  padding: 17px;
+  margin-top: -25px;
+  width: 159px;
+  margin-left: -56px;
+}
+.btn2 a:hover{
+  color: hsl(0, 0%, 0%);
+  background: #f1f1f1;
+  border: 0;
+  padding: 16px;
+  border-radius: 35px;
+  width: 20px;
+}
+.image-slider{
+  width: 100%;
+  margin-top: -16px;
+}
+.header2{
+  padding: 250px;
+  background: #000;
+  height: 95px;
+
+}
+.header2 ,h2 {
+  text-align: center;
+  color:#fff;
+  margin-top: -150px;
+}
+.header2 , h2{
+font-family: 'aperciu';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+}
+.header2 ,p{
+  font-weight: 400;
+ font-size: 17px;
+ color: rgba(255, 255, 255, 0.7);
+ margin-top: -30px;
+
+}
+.text-mid{
+  font-size:50px;
+  font-family: "futurak";
+}
+.logosalt li{
+  float: left;
+  list-style: none;
+}
+.logop{
+  margin: 50px;
+  margin-left: 100px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: -50px;
+}
+.btnl1{
+  background-color:hsl(0, 0%, 0%);
+  color: #ffffff; 
+  border-color: #fff;
+  border-radius: 35px; 
+  display: block;
+  box-sizing: border-box;
+  padding: 17px;
+  margin-top: -22px;
+  width: 159px;  
+  margin-left: 180px;
+ 
+}
+.btnl1 > a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+  
+ }
+ .btnl2{
+  background-color:hsl(0, 0%, 0%);
+  color: #ffffff; 
+  border-color: #fff;
+  border-radius: 35px; 
+  display: block;
+  box-sizing: border-box;
+  padding: 17px;
+  margin-top: -70px;
+  width: 159px;  
+  margin-left: 597px;
+ 
+}
+.btnl2 > a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+  
+ }
+ .btnl3{
+  background-color:hsl(0, 0%, 0%);
+  color: #ffffff; 
+  border-color: #fff;
+  border-radius: 35px; 
+  display: block;
+  box-sizing: border-box;
+  padding: 17px;
+  margin-top: -69px;
+  width: 159px;  
+  margin-left: 1010px;
+ 
+}
+.btnl3 > a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+ }
+
+
+
+
+
+
