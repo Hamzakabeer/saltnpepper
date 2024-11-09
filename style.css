@@ -253,6 +253,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: #bbb;
+  text-align: justify;
 }
 
 .footer-section a {
@@ -261,6 +262,7 @@ body {
 
 .footer-section a:hover {
   text-decoration: underline;
+  color: rgb(141, 199, 253);
 }
 
 .social-icons {
@@ -294,7 +296,10 @@ body {
 .footer-bottom ,a{
   text-decoration: none;
   color: #fff;
-  margin-bottom: 10px;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+  color: rgb(141, 199, 253);
 }
 
 
