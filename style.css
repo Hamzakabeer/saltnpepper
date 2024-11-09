@@ -31,23 +31,20 @@ body {
   background-color: #000;
   padding: 10px 20px;
 }
-.web-logo{
+
+.web-logo {
   margin: 10px;
- 
-}
-.linavimg {
-  display: flex;
-  align-items: center;
-}
+  padding: auto;
+  margin-top: 0px;
 
-.linavimg1 img {
-  width: 165px;
 }
-
+.linavimg{
+  list-style: none;
+}
 .linav {
   display: flex;
   align-items: center;
-  gap: 40px; 
+  gap: 40px;
 }
 
 .linav li {
@@ -68,7 +65,8 @@ body {
 }
 
 /* Buttons as Links */
-.btn1, .btn2 {
+.btn1,
+.btn2 {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
@@ -86,7 +84,7 @@ body {
 .btn2 {
   background-color: #e61722;
   color: #fff;
-  
+
 }
 
 .btn2:hover {
@@ -95,8 +93,10 @@ body {
   border: 1px solid #e61722;
   transition: all 0.3s ease;
 }
+
 /* Buttons */
-.btn1, .btn2 {
+.btn1,
+.btn2 {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 35px;
@@ -153,35 +153,36 @@ body {
   font-size: 50px;
   font-family: 'futurak';
 }
+
 /* Logo Salt Section */
 .logosalt {
   display: flex;
-  flex-wrap: wrap;                
-  justify-content: center;         
-  gap: 20px;                      
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
   list-style: none;
   margin: 0;
 }
 
 .logosalt .logop {
-  flex: 1 1 150px;                 
-  max-width: 200px;               
+  flex: 1 1 150px;
+  max-width: 200px;
   display: flex;
-  justify-content: center;   
-  background-color: #fff;  
-  border-radius: 5px;   
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .logosalt .logop img {
-  width: 100%;                     
-  height: auto;                    
+  width: 100%;
+  height: auto;
   transition: transform 0.3s ease;
-  
+
 }
 
 .logosalt .logop img:hover {
-  transform: scale(1.05);         
+  transform: scale(1.05);
 }
 
 /* Brand Buttons */
@@ -191,11 +192,13 @@ body {
   gap: 20px;
   list-style: none;
   margin: 15px 0;
-  
+
 }
 
-.logbtn1, .logbtn2, .logbtn3 {
-  padding: 15px 30px ;
+.logbtn1,
+.logbtn2,
+.logbtn3 {
+  padding: 15px 30px;
   border-radius: 35px;
   font-weight: bold;
   text-decoration: none;
@@ -203,7 +206,8 @@ body {
   display: inline-block;
 }
 
-.logbtn1, .logbtn2 {
+.logbtn1,
+.logbtn2 {
   background-color: #000;
   color: #e61722;
   border: 1px solid #fff;
@@ -219,12 +223,104 @@ body {
   background-color: #fff;
   color: #e61722;
 }
+/* mid-body*************************************************** */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; 
+  color: #fff;
+}
+
+.container {
+  
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0f0f0f;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'aperciu';
+  font-size: 60px;
+}
+h1.text-mid2 {
+  font-size: 60px;
+  font-family: 'futurak';
+}
+p {
+  color: #b8afaf;
+  font-style: oblique;
+  font-family: 'aperciu';
+  text-align: center;
+  padding: 20px;
+
+}
+
+.franchise {
+  background-color: #000000;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.franchise.left {
+  align-items: flex-start;
+}
+
+.franchise.right {
+  align-items: flex-end;
+}
+.franchise h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'aperciu';
+  color: #e61722;
+}
+.franchise p {
+  color: #ccc;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'aperciu';
+  text-align: justify;
+}
+
+.franchise img {
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ec4d4d;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #7cdff8;
+}
+
+
+
+/* footer *************************************************************************/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
-/* footer */
+
 .footer {
   background-color: #000;
   color: #fff;
@@ -249,7 +345,8 @@ body {
   padding-bottom: 10px;
 }
 
-.footer-section p, .footer-section a {
+.footer-section p,
+.footer-section a {
   font-size: 14px;
   line-height: 1.6;
   color: #bbb;
@@ -282,10 +379,16 @@ body {
 }
 
 .social-icons a:hover {
+  background-color: #ED1C24;
+  border-radius: 3px;
+
+}
+
+.social-icons a:hover {
   color: #fff;
 }
 
-.footer-bottom {
+.footer-bottom >p  {
   text-align: center;
   padding: 10px;
   background-color: #222;
@@ -293,14 +396,57 @@ body {
   font-size: 14px;
   border: 1px solid #fff;
 }
-.footer-bottom ,a{
+
+.footer-bottom,
+a {
   text-decoration: none;
   color: #fff;
 }
+
 .footer-bottom a:hover {
   text-decoration: underline;
   color: rgb(141, 199, 253);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive Design */
@@ -309,7 +455,8 @@ body {
     padding-left: 0;
     text-align: center;
   }
-/* Responsive navbar */
+
+  /* Responsive navbar */
   .navbar {
     display: flex;
     flex-direction: column;
@@ -325,27 +472,32 @@ body {
   .logosalt {
     flex-direction: column;
   }
-/* Responsive btn */
+
+  /* Responsive btn */
   .logobtn {
     flex-direction: column;
     gap: 10px;
   }
-/* Responsive text */
+
+  /* Responsive text */
   .text-mid {
     font-size: 36px;
   }
-}/* Responsive Navbar */
+}
+
+/* Responsive Navbar */
 @media (max-width: 768px) {
- 
-  .btn1, .btn2 {
+
+  .btn1,
+  .btn2 {
     width: 100%;
   }
 }
+
 /* Responsive footer */
 @media (max-width: 768px) {
   .footer {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 }
-
