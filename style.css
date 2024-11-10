@@ -399,6 +399,109 @@ button {
 button:hover {
   background-color: grey;
 }
+/* mid-content-3***************************************** */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.restaurant-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.details > h2 >h3 {
+  text-align: justify;
+}
+.details >p{
+  text-align: justify;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+h2 {
+  color: red;
+  font-size: 1.5em;
+  margin: 10px;
+  font-family: 'aperciu';
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer *************************************************************************/
 body {
@@ -493,6 +596,9 @@ a {
   text-decoration: underline;
   color: rgb(141, 199, 253);
 }
+
+
+
 /* Media Quires make by Muhammad Hamza kabeer Do'nt copyright this!!!!!!*/
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -565,6 +671,17 @@ a {
   .data {
       flex: 1 1 100%; /* Adjust flex property for small screens */
       margin: 10px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .restaurant-info {
+      flex-direction: row;
+  }
+
+  .details {
+      margin-left: 20px;
+      text-align: left;
   }
 }
 
