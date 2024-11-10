@@ -250,7 +250,7 @@ h1.text-mid2 {
 }
 p {
   color: #b8afaf;
-  font-style: oblique;
+  font-style: normal;
   font-family: 'aperciu';
   text-align: center;
   padding: 20px;
@@ -314,7 +314,7 @@ button:hover {
 /* mid-content 1********************************************************** */
 
 .container {
-  font-family: Arial, sans-serif;
+  font-family: 'aperciu';
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -325,10 +325,16 @@ button:hover {
 
 h1 {
   color: white;
+  font-size: 60px;
+
+}
+.text-mid3{
+  font-family: 'futurak';
 }
 
 p {
   color: lightgray;
+
 }
 
 .row {
@@ -339,7 +345,7 @@ p {
 }
 
 .data {
-  background-color: #333;
+  background-color: #000;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
@@ -349,6 +355,12 @@ p {
   min-width: 200px;
 }
 
+.datamid-2 >img{
+  height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+ 
+}
 .data img {
   width: 100%;
   height: auto;
