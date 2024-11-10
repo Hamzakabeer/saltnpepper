@@ -334,7 +334,11 @@ h1 {
 
 p {
   color: lightgray;
-
+  padding: 10px;
+}
+.colorhead{
+  color:#e61722 ;
+  text-transform: uppercase;
 }
 
 .row {
@@ -366,6 +370,9 @@ p {
   border-radius: 5px;
   width: 100%;
 }
+.datamid-2  >p{
+padding: 0px;
+}
 .data img {
   width: 100%;
   height: auto;
@@ -374,7 +381,8 @@ p {
 }
 
 .data p {
-  margin: 10px 0;
+  margin: 0px 0;
+  padding: 0px;
 }
 
 button {
