@@ -141,6 +141,7 @@ body {
   font-weight: 400;
   font-size: 40px;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .header2 p {
@@ -152,6 +153,7 @@ body {
 .text-mid {
   font-size: 50px;
   font-family: 'futurak';
+  color: #fff;
 }
 
 /* Logo Salt Section */
@@ -516,7 +518,7 @@ h2 {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  width: 200px;
+  width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -531,6 +533,7 @@ h2 {
 
 .column p {
   margin: 0.5em 0;
+  color: #000;
 }
 
 .column h3 {
