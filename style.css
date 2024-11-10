@@ -254,7 +254,6 @@ p {
   font-family: 'aperciu';
   text-align: center;
   padding: 20px;
-
 }
 
 .franchise {
@@ -306,6 +305,9 @@ button {
   margin: 20px;
   cursor: pointer;
   border-radius: 5px;
+}
+button > a{
+  color: #000;
 }
 
 button:hover {
